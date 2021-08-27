@@ -14,6 +14,9 @@
 		6440AE4A26D73ABB00602573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6440AE4926D73ABB00602573 /* Assets.xcassets */; };
 		6440AE4D26D73ABB00602573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6440AE4B26D73ABB00602573 /* LaunchScreen.storyboard */; };
 		6440AE5026D73ABC00602573 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6440AE4F26D73ABC00602573 /* main.m */; };
+		6440AE5B26D766DB00602573 /* LSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6440AE5A26D766DB00602573 /* LSTools.m */; };
+		6440AE6326D77C6300602573 /* Obj+LSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6440AE6226D77C6300602573 /* Obj+LSTools.m */; };
+		6440AE6626D7AAC200602573 /* UIKit+LSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6440AE6526D7AAC100602573 /* UIKit+LSTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,13 @@
 		6440AE4C26D73ABB00602573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6440AE4E26D73ABC00602573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6440AE4F26D73ABC00602573 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6440AE5926D766DB00602573 /* LSTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSTools.h; sourceTree = "<group>"; };
+		6440AE5A26D766DB00602573 /* LSTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTools.m; sourceTree = "<group>"; };
+		6440AE6026D7791200602573 /* LSProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSProtocol.h; sourceTree = "<group>"; };
+		6440AE6126D77C6200602573 /* Obj+LSTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Obj+LSTools.h"; sourceTree = "<group>"; };
+		6440AE6226D77C6300602573 /* Obj+LSTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Obj+LSTools.m"; sourceTree = "<group>"; };
+		6440AE6426D7AAC100602573 /* UIKit+LSTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKit+LSTools.h"; sourceTree = "<group>"; };
+		6440AE6526D7AAC100602573 /* UIKit+LSTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIKit+LSTools.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +77,13 @@
 				6440AE4126D73ABA00602573 /* SceneDelegate.m */,
 				6440AE4326D73ABA00602573 /* ViewController.h */,
 				6440AE4426D73ABA00602573 /* ViewController.m */,
+				6440AE5926D766DB00602573 /* LSTools.h */,
+				6440AE5A26D766DB00602573 /* LSTools.m */,
+				6440AE6026D7791200602573 /* LSProtocol.h */,
+				6440AE6126D77C6200602573 /* Obj+LSTools.h */,
+				6440AE6226D77C6300602573 /* Obj+LSTools.m */,
+				6440AE6426D7AAC100602573 /* UIKit+LSTools.h */,
+				6440AE6526D7AAC100602573 /* UIKit+LSTools.m */,
 				6440AE4626D73ABA00602573 /* Main.storyboard */,
 				6440AE4926D73ABB00602573 /* Assets.xcassets */,
 				6440AE4B26D73ABB00602573 /* LaunchScreen.storyboard */,
@@ -145,9 +162,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6440AE5B26D766DB00602573 /* LSTools.m in Sources */,
+				6440AE6626D7AAC200602573 /* UIKit+LSTools.m in Sources */,
 				6440AE4526D73ABA00602573 /* ViewController.m in Sources */,
 				6440AE3F26D73ABA00602573 /* AppDelegate.m in Sources */,
 				6440AE5026D73ABC00602573 /* main.m in Sources */,
+				6440AE6326D77C6300602573 /* Obj+LSTools.m in Sources */,
 				6440AE4226D73ABA00602573 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
